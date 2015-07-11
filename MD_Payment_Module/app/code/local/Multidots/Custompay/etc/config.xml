@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Multidots_Custompay>
+            <version>0.1.0</version>
+        </Multidots_Custompay>
+    </modules>
+    <global>
+        <models>
+            <custompay>
+                <class>Multidots_Custompay_Model</class>
+            </custompay>
+        </models>
+        <helpers>
+            <custompay>
+                <class>Multidots_Custompay_Helper</class>
+            </custompay>
+        </helpers>
+    </global>
+    <default>
+        <payment>
+            <custompay>
+                <active>1</active>
+                <model>custompay/custommodel</model>
+                <order_status>pending</order_status>
+                <title>Multidots Payment Method</title>
+            </custompay>
+         </payment>
+    </default>
+</config>

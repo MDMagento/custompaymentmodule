@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Multidots_Custompay>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Multidots_Custompay>
+    </modules>
+</config> 
